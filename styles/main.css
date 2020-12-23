@@ -29,16 +29,18 @@
     margin-top: 10px;
     width: 155px;
 }
-.list{
-    margin: 10px 0 13px 0;
-    text-decoration: none;
+.menue{
 }
 
-.list-item{
+.container{
+    margin: 10px 0 13px 0;
+    display: flex;
+}
+
+.item{
     color: var(--color-text-nav);
     font-size: 16px;
     margin: 0 10px 0 10px;
-    text-decoration: none;
 }
 
 .main{
@@ -52,7 +54,7 @@
     color: var(--color-text-main);
     font-size: 30px;
     position: relative;
-    top: 200px;
+    top: 145px;
     font-family: var(--font-family);
 }
 .heading{
