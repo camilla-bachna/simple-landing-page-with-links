@@ -29,18 +29,21 @@
     margin-top: 10px;
     width: 155px;
 }
-.menue{
-}
 
 .container{
     margin: 10px 0 13px 0;
-    display: flex;
+    display: inline-block;
 }
 
 .item{
     color: var(--color-text-nav);
     font-size: 16px;
     margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+a:visited {
+    color: var(--color-text-nav);
+    text-decoration: none;
 }
 
 .main{
@@ -61,4 +64,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media all and (min-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+        justify-content: space-around;
+        align-items: right;
+    }
+    .container{
+        margin-right: 30px;
+    }
+    .item{
+    }
+    .logo{
+        margin: 20px 0 20px 30px;
+    }
+    .main{
+        font-size: 40px;
+    }
 }
