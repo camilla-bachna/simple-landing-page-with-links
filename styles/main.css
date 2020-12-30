@@ -12,13 +12,16 @@
   --font-family: "Rubik", sans-serif;
 }
 
+.body{
+  font-family: var(--font-family);
+}
+
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
-  font-family: var(--font-family);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,9 +36,11 @@
 .container {
   margin: 10px 0 13px 0;
   display: inline-block;
+  text-transform: uppercase;
+  color: var(--color-text-nav);
 }
 
-.item {
+.link {
   color: var(--color-text-nav);
   font-size: 16px;
   margin: 0 10px 0 10px;
@@ -59,7 +64,7 @@ a:visited {
   font-size: 30px;
   position: relative;
   top: 115px;
-  font-family: var(--font-family);
+  text-transform: capitalize;
 }
 
 .heading {
@@ -77,8 +82,6 @@ a:visited {
   }
   .container {
     margin-right: 30px;
-  }
-  .item {
   }
   .logo {
     margin: 20px 0 20px 30px;
