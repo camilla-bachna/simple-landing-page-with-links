@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*border: 2px solid blue;*/
 }
 
 :root {
   --color-text-nav: #4a4a4a;
   --background-color: #3cdbc0;
   --color-text-main: #ffffff;
-  --font-family: "Rubik", sans-serif;
+  --font-family: 'Rubik', sans-serif;
 }
 
 .body {
@@ -25,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid grey;
 }
 
 .logo {
@@ -93,4 +93,29 @@ a:visited {
   .heading {
     font-size: 40px;
   }
+}
+.headline {
+  width: 100%;
+  font-size: 30px;
+  margin-top: 35px;
+  margin-bottom: 34px;
+  text-align: center;
+  /*  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.button {
+  background-color: #1c7465;
+  padding: 7px;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #104940;
+  text-decoration: none;
+}
+.text {
+  color: white;
+  font-size: 20px;
 }
